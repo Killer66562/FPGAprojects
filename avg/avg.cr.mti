@@ -1,0 +1,15 @@
+/home/jimmy/Desktop/FPGAprojects/avg/test.v {1 {vlog -work work -stats=none /home/jimmy/Desktop/FPGAprojects/avg/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} /home/jimmy/Desktop/FPGAprojects/avg/avg.v {1 {vlog -work work -stats=none /home/jimmy/Desktop/FPGAprojects/avg/avg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module avg
+
+Top level modules:
+	avg
+
+} {} {}}

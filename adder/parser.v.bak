@@ -1,0 +1,13 @@
+module fetcher(clk, cmd_in, cmd_out, err_out);
+	input clk;
+	input [7:0] cmd_in;
+	
+	output reg err_out;
+	
+	reg [1:0] reg0, reg1, reg2, reg3;
+	
+	wire [2:0] opcode, num1, num2, reg_id;
+	
+	always @(posedge clk) begin
+		if (cmd_in
+	

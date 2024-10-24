@@ -1,0 +1,7 @@
+module adder(a, b, s);
+	input [3:0] a, b;
+	
+	output [4:0] s;
+	
+	wire [3:0] g, p;
+	wire [4:0] cin;

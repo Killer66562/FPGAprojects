@@ -1,0 +1,6 @@
+module d_flip_flop_4x(clk, rst, enable, data_in, data_out);
+	input clk, rst. enable;
+	input [3:0] data_in;
+	
+	output [3:0] data_out;
+	
